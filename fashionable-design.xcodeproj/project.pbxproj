@@ -11,9 +11,11 @@
 		8E3700F326EE2C2600DE71B2 /* Combine+UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3700EF26EE2C2600DE71B2 /* Combine+UIControl.swift */; };
 		8E3700F426EE2C2600DE71B2 /* Combine+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3700F026EE2C2600DE71B2 /* Combine+UIButton.swift */; };
 		8E3700F526EE2C2600DE71B2 /* Combine+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3700F126EE2C2600DE71B2 /* Combine+UITextView.swift */; };
-		8E3700F926EE2D1600DE71B2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3700F826EE2D1600DE71B2 /* FeedViewController.swift */; };
-		8E3700FB26EE2D2200DE71B2 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3700FA26EE2D2200DE71B2 /* FeedViewController.xib */; };
 		8E3700FE26EE2D5C00DE71B2 /* FeedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3700FD26EE2D5C00DE71B2 /* FeedBuilder.swift */; };
+		8E37010226EE2FD200DE71B2 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3700FF26EE2FD200DE71B2 /* FeedViewController.xib */; };
+		8E37010326EE2FD200DE71B2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E37010026EE2FD200DE71B2 /* FeedViewController.swift */; };
+		8E37010426EE2FD200DE71B2 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E37010126EE2FD200DE71B2 /* FeedView.swift */; };
+		8E37010D26EE2FF700DE71B2 /* FeedContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E37010826EE2FF700DE71B2 /* FeedContainer.swift */; };
 		8EA3BC0B26ED116F009761AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3BC0A26ED116F009761AB /* AppDelegate.swift */; };
 		8EA3BC0D26ED116F009761AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3BC0C26ED116F009761AB /* SceneDelegate.swift */; };
 		8EA3BC1426ED116F009761AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3BC1326ED116F009761AB /* Assets.xcassets */; };
@@ -42,9 +44,11 @@
 		8E3700EF26EE2C2600DE71B2 /* Combine+UIControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Combine+UIControl.swift"; sourceTree = "<group>"; };
 		8E3700F026EE2C2600DE71B2 /* Combine+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Combine+UIButton.swift"; sourceTree = "<group>"; };
 		8E3700F126EE2C2600DE71B2 /* Combine+UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Combine+UITextView.swift"; sourceTree = "<group>"; };
-		8E3700F826EE2D1600DE71B2 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		8E3700FA26EE2D2200DE71B2 /* FeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
 		8E3700FD26EE2D5C00DE71B2 /* FeedBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBuilder.swift; sourceTree = "<group>"; };
+		8E3700FF26EE2FD200DE71B2 /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
+		8E37010026EE2FD200DE71B2 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		8E37010126EE2FD200DE71B2 /* FeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		8E37010826EE2FF700DE71B2 /* FeedContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedContainer.swift; sourceTree = "<group>"; };
 		8EA3BC0726ED116F009761AB /* fashionable-design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fashionable-design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA3BC0A26ED116F009761AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EA3BC0C26ED116F009761AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,8 +107,10 @@
 		8E3700F726EE2CF000DE71B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8E3700FA26EE2D2200DE71B2 /* FeedViewController.xib */,
-				8E3700F826EE2D1600DE71B2 /* FeedViewController.swift */,
+				8E37010026EE2FD200DE71B2 /* FeedViewController.swift */,
+				8E3700FF26EE2FD200DE71B2 /* FeedViewController.xib */,
+				8E37010126EE2FD200DE71B2 /* FeedView.swift */,
+				8E37010526EE2FF700DE71B2 /* Module */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +121,14 @@
 				8E3700FD26EE2D5C00DE71B2 /* FeedBuilder.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		8E37010526EE2FF700DE71B2 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				8E37010826EE2FF700DE71B2 /* FeedContainer.swift */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 		8EA3BBFE26ED116F009761AB = {
@@ -269,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA3BC1726ED116F009761AB /* LaunchScreen.storyboard in Resources */,
-				8E3700FB26EE2D2200DE71B2 /* FeedViewController.xib in Resources */,
+				8E37010226EE2FD200DE71B2 /* FeedViewController.xib in Resources */,
 				8EA3BC1426ED116F009761AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,13 +310,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA3BC0B26ED116F009761AB /* AppDelegate.swift in Sources */,
+				8E37010426EE2FD200DE71B2 /* FeedView.swift in Sources */,
 				8E3700F326EE2C2600DE71B2 /* Combine+UIControl.swift in Sources */,
 				8E3700F226EE2C2600DE71B2 /* Combine+TapGesture.swift in Sources */,
+				8E37010D26EE2FF700DE71B2 /* FeedContainer.swift in Sources */,
 				8E3700F526EE2C2600DE71B2 /* Combine+UITextView.swift in Sources */,
 				8E3700FE26EE2D5C00DE71B2 /* FeedBuilder.swift in Sources */,
 				8E3700F426EE2C2600DE71B2 /* Combine+UIButton.swift in Sources */,
+				8E37010326EE2FD200DE71B2 /* FeedViewController.swift in Sources */,
 				8EA3BC0D26ED116F009761AB /* SceneDelegate.swift in Sources */,
-				8E3700F926EE2D1600DE71B2 /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
