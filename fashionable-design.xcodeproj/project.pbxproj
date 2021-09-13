@@ -20,6 +20,8 @@
 		8EA3BC0D26ED116F009761AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3BC0C26ED116F009761AB /* SceneDelegate.swift */; };
 		8EA3BC1426ED116F009761AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3BC1326ED116F009761AB /* Assets.xcassets */; };
 		8EA3BC1726ED116F009761AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3BC1526ED116F009761AB /* LaunchScreen.storyboard */; };
+		8EDED73326EF855800CDFC25 /* FeedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDED73226EF855800CDFC25 /* FeedHeaderView.swift */; };
+		8EDED73526EF8C1F00CDFC25 /* FeedBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDED73426EF8C1F00CDFC25 /* FeedBodyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		8EA3BC1826ED116F009761AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EA3BC1D26ED116F009761AB /* fashionable-designTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fashionable-designTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA3BC2826ED116F009761AB /* fashionable-designUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fashionable-designUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDED73226EF855800CDFC25 /* FeedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedHeaderView.swift; sourceTree = "<group>"; };
+		8EDED73426EF8C1F00CDFC25 /* FeedBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBodyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +111,8 @@
 		8E3700F726EE2CF000DE71B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8E37010026EE2FD200DE71B2 /* FeedViewController.swift */,
 				8E3700FF26EE2FD200DE71B2 /* FeedViewController.xib */,
+				8E37010026EE2FD200DE71B2 /* FeedViewController.swift */,
 				8E37010126EE2FD200DE71B2 /* FeedView.swift */,
 				8E37010526EE2FF700DE71B2 /* Module */,
 			);
@@ -127,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				8E37010826EE2FF700DE71B2 /* FeedContainer.swift */,
+				8EDED73226EF855800CDFC25 /* FeedHeaderView.swift */,
+				8EDED73426EF8C1F00CDFC25 /* FeedBodyView.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -311,6 +317,7 @@
 			files = (
 				8EA3BC0B26ED116F009761AB /* AppDelegate.swift in Sources */,
 				8E37010426EE2FD200DE71B2 /* FeedView.swift in Sources */,
+				8EDED73326EF855800CDFC25 /* FeedHeaderView.swift in Sources */,
 				8E3700F326EE2C2600DE71B2 /* Combine+UIControl.swift in Sources */,
 				8E3700F226EE2C2600DE71B2 /* Combine+TapGesture.swift in Sources */,
 				8E37010D26EE2FF700DE71B2 /* FeedContainer.swift in Sources */,
@@ -318,6 +325,7 @@
 				8E3700FE26EE2D5C00DE71B2 /* FeedBuilder.swift in Sources */,
 				8E3700F426EE2C2600DE71B2 /* Combine+UIButton.swift in Sources */,
 				8E37010326EE2FD200DE71B2 /* FeedViewController.swift in Sources */,
+				8EDED73526EF8C1F00CDFC25 /* FeedBodyView.swift in Sources */,
 				8EA3BC0D26ED116F009761AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

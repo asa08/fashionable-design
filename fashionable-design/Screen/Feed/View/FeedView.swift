@@ -10,6 +10,12 @@ import UIKit
 class FeedView: UIView {
     
     let modules: [FeedContainer] = [
+        FeedHeaderView(),
+        FeedBodyView(),
+        FeedBodyView(),
+        FeedBodyView(),
+        FeedBodyView(),
+        FeedBodyView()
     ]
     
     let scrollView: UIScrollView = {
